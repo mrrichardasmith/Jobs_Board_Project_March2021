@@ -1,0 +1,225 @@
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.between    {
+    justify-content: space-between;
+}
+
+.around     {
+    justify-content: space-around;
+}
+
+
+.company {
+    color: #55b8b8;
+    list-style: none;
+    border: none;
+    padding: 10px 30px 10px 0px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+body {
+    font-size: 1.25rem;
+    background-color: #f0fafb;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.new {
+    background-color: #749b96;   
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.featured {
+    background-color: black;   
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+
+.details {
+    color: 8f9595;
+    padding-left: 0;
+    color: grey;
+}
+
+.details li{
+    list-style: none;
+    margin-right: 1rem;
+    
+}
+
+.skills {
+    height: 100%;
+    width: 90%;
+    max-width: 15rem;
+    align-items: center;
+    margin-left: 3rem;
+    color: #55b8b8;
+}
+
+.skills li {
+    
+    list-style: none;
+}
+
+.skills button  {
+    border: none;
+    background-color: #daedeb;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: e9f7f7;
+    outline: solid 2px #749b96;
+    transition: outline 0.6s linear;
+    margin: 0.5em;
+}
+
+button:hover    {
+    background-color: #749b96;
+    outline-width: 5px;
+    
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-left: solid #5aa4a3 1rem;
+    border-radius: 20px;
+    max-width: 75%;
+    
+}
+
+.card:hover {
+    box-shadow: #749b96 7px 7px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+
+.jobTitle {
+    font-weight: 500;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.slimLines {
+    margin: .5rem;
+    padding-bottom: .5rem;
+    border-collapse: collapse;
+
+}
+
+.wrap   {
+    flex-wrap: wrap;
+}
+
+.imgContainer img {
+    width: 15vmin;
+    height: 15vmin;
+    
+}
+
+
+  
+  @media screen and (max-width: 769px) {
+    .status  {
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .slimLines  {
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .skills     {
+        margin: 0 0.5rem 0 0; 
+        max-width: 30rem;
+        position: relative;
+        right: 5rem;
+  }
+
+  .mob  {
+      flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 410px) and (min-width: 375px) {
+
+    .imgContainer   {
+        height: 5rem;
+    }
+    .imgContainer img  {
+        position: relative;
+        top: -3rem;
+    }
+    .featured   {
+        display: none;
+    }
+
+    .skills {
+        position: relative;
+        right: 6rem;
+    }
+    .skills button {
+        margin: 0.5rem;
+
+    }
+    .mob    {
+        position: relative;
+        left: -4rem;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .basis {
+        width: 100%;
+        position: relative;
+        right: -6rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+    .basis  {
+        position: relative;
+        right: -1rem;
+    }
+}

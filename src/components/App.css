@@ -1,0 +1,65 @@
+.head  {
+    text-align: center;
+    width: 100%;
+    height: 20vmin;
+    background-image: url(../images/bg-header-desktop.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.border  {
+  border: solid green;
+}
+
+.container   {
+  display: flex;
+}
+
+.between    {
+  justify-content: space-between;
+}
+
+.clear  {
+  background-color: #5aa4a3;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+}
+
+.clear a {
+  color: #55b8b8;
+}
+
+.filter  {
+  height: 7rem;
+  max-width: 75%;
+  margin: 1rem auto 2rem;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.filters  {
+  margin: 1rem;
+}
+
+.filters li {
+  padding: 0.4rem;
+  margin: 0.5rem;
+  background-color: #e9f7f7;
+  color: #55b8b8;
+  list-style-type: none;
+}
+
+.filters li button  {
+  background-color: #5aa4a3;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+}
+
+
+.delete:hover  {
+  background-color: red;
+}
