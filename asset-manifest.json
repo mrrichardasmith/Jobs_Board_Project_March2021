@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%7BJobs_Board_Project_March2021%7D/static/css/main.94c98c81.chunk.css",
+    "main.js": "/%7BJobs_Board_Project_March2021%7D/static/js/main.6ba85a8d.chunk.js",
+    "main.js.map": "/%7BJobs_Board_Project_March2021%7D/static/js/main.6ba85a8d.chunk.js.map",
+    "runtime-main.js": "/%7BJobs_Board_Project_March2021%7D/static/js/runtime-main.553bab7e.js",
+    "runtime-main.js.map": "/%7BJobs_Board_Project_March2021%7D/static/js/runtime-main.553bab7e.js.map",
+    "static/js/2.207448d9.chunk.js": "/%7BJobs_Board_Project_March2021%7D/static/js/2.207448d9.chunk.js",
+    "static/js/2.207448d9.chunk.js.map": "/%7BJobs_Board_Project_March2021%7D/static/js/2.207448d9.chunk.js.map",
+    "static/js/3.a9a39069.chunk.js": "/%7BJobs_Board_Project_March2021%7D/static/js/3.a9a39069.chunk.js",
+    "static/js/3.a9a39069.chunk.js.map": "/%7BJobs_Board_Project_March2021%7D/static/js/3.a9a39069.chunk.js.map",
+    "index.html": "/%7BJobs_Board_Project_March2021%7D/index.html",
+    "static/css/main.94c98c81.chunk.css.map": "/%7BJobs_Board_Project_March2021%7D/static/css/main.94c98c81.chunk.css.map",
+    "static/js/2.207448d9.chunk.js.LICENSE.txt": "/%7BJobs_Board_Project_March2021%7D/static/js/2.207448d9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/%7BJobs_Board_Project_March2021%7D/static/media/bg-header-desktop.9b3db09a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.553bab7e.js",
+    "static/js/2.207448d9.chunk.js",
+    "static/css/main.94c98c81.chunk.css",
+    "static/js/main.6ba85a8d.chunk.js"
+  ]
+}
